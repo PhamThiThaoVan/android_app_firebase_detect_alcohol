@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:src="@drawable/meme" />
+
+    <TextView
+        android:background="#56EDED"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="40sp"
+        android:gravity="center"
+        android:text="HIỂN THỊ \n NỒNG ĐỘ CỒN" />
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:background="#B7E3B9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:gravity="center"
+        android:text="Chỉ số nồng độ cồn" />
+
+    <TextView
+        android:id="@+id/tv_hienthi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:background="#FFFFFF"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:background="#B7E3B9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:gravity="center"
+        android:text="Vị trí" />
+
+    <TextView
+        android:id="@+id/tv_vitri"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:background="#FFFFFF"
+        android:gravity="center"
+        android:textColor="@color/black" />
+
+
+
+    <TextView
+        android:layout_marginTop="15dp"
+        android:text="Số điện thoại gửi tin nhắn:"
+        android:background="#CAC3C3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:textColor="@color/black"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/tv_sdt"
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:textSize="15sp"
+        android:textColor="@color/black"
+        android:gravity="center"/>
+
+    <Button
+        android:id="@+id/change_phone_number"
+        android:layout_marginTop="10dp"
+        android:text="Thay đổi số điện thoại"
+        android:background="#CAC3C3"
+        app:backgroundTint="#D9FBB0"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        android:gravity="center"/>
+
+    <Button
+        android:id="@+id/send_data"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="#D69090"
+        android:gravity="center"
+        android:text="Gửi thông báo"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        app:backgroundTint="#836FDD" />
+</LinearLayout>

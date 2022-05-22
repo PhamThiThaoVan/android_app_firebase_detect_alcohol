@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "790494603392",
+    "firebase_url": "https://raspberrypiandmodulesim-default-rtdb.firebaseio.com",
+    "project_id": "raspberrypiandmodulesim",
+    "storage_bucket": "raspberrypiandmodulesim.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:790494603392:android:51359ae918f0b095dbde65",
+        "android_client_info": {
+          "package_name": "pttv.com.example.raspberrypiandmodulesim"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "790494603392-bm9a3imab74v29oqelcqf5kpfml044d3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDBoj435pEFmCQEYa7ookx48S7lwaGvl2I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "790494603392-bm9a3imab74v29oqelcqf5kpfml044d3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
