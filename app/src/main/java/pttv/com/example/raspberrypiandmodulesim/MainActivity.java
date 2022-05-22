@@ -48,8 +48,8 @@ public class MainActivity extends AppCompatActivity implements LocationListener 
     TextView tv_hienthi, tv_sdt, tv_vitri;
     LocationManager locationManager;
     private static final int RESULT_PICK_CONTACT=1;
-    private static final String CONTENT_TITLE = "Thông báo có rò rỉ khí gas";
-    private static final String CONTENT_TEXT = "Hệ thống nhận được thông báo có rò rỉ khí gas tại phòng ";
+    private static final String CONTENT_TITLE = "Thông báo";
+    private static final String CONTENT_TEXT = "Hệ thống nhận được thông báo có nồng độ cồn";
     private int t_so = 1;
     private int nguong = 400;
 
